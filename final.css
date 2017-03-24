@@ -1,0 +1,85 @@
+
+/* Brielle Woods's CSS Document.
+*/
+
+
+
+/* the html element below is the "background" of your page */
+html {
+
+}
+
+body {
+	width: 761px;
+	margin: 1.5em auto; /* this + a defined width, centers the body content */
+	border-color: darkblue;
+	border-style: solid;
+	border-width: 10px;
+	padding: 50px;
+	background-image: url("detroit.jpg");
+	color: black;
+	font-family: Lucida Console;
+}
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 300px;
+	width: 300px;
+}
+
+#nav {
+	list-style-type: none;
+	text-align: center;
+	background-color: darkblue;
+	padding: 15px;
+	border-color: black;
+	border-style: solid;
+	border-width: 5px;
+}
+#nav li{
+	display: inline;
+}
+#nav a{
+	padding: 10px;
+	background-color: darkblue;
+
+}
+
+h1 {
+	text-align: center;
+	background-color: black;
+	color: red;
+	font-family: Georgia;
+}
+
+h2 {
+	color: #FF6;
+	text-align: center;
+	background-color: blue;
+	font-family: Lucida Console;
+}
+
+h3 {
+	color: red;
+	font-family: Lucida Console;
+}
+
+a {
+  font-weight: bold;
+  text-decoration: none;
+  color: red;
+}
+
+a:hover {
+	font-weight: bold;
+	text-decoration: underline;
+	color: green;
+}
+
+a:active {
+	color: darkblue;
+}
+a:visited {
+	background-color: yellow;
+}
